@@ -11,6 +11,7 @@ set -x
 
 mkdir analysis output
 touch README.md
+echo "# Project Name: DSI Consulting Inc." > README.md
 touch analysis/main.py
 
 # download client data
@@ -21,7 +22,7 @@ unzip rawdata.zip
 # Complete assignment here
 
 # 1. Create a directory named data 
-mkdir dataCOWORKER
+mkdir data
 
 # 2. Move the ./rawdata directory to ./data/raw 
 mv rawdata data/raw
